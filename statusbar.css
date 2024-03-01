@@ -1,0 +1,24 @@
+:root {
+    --font: 'Ubuntu' !important;
+    --monospaced-font: 'Ubuntu Mono' !important;
+    --sidebar-font-size: 13px !important;
+    --tabs-font-size: 11px !important;
+    --breadcrumbs-font-size: 12px !important;
+    --statusbar-font-size: 11px !important;
+    --cursor-border-radius: 1px !important;
+    --background-blur: 10px;
+    --quick-input-border-radius: 6px !important;
+    --popup-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.36);
+    --so-box-shadow-xl: 0 1px 4px hsla(0, 0%, 0%, 0.09), 0 3px 8px hsla(0, 0%, 0%, 0.09), 0 4px 13px hsla(0, 0%, 0%, 0.13)
+}
+
+/* statusbar */
+.statusbar .statusbar-item {
+    font-family: var(--monospaced-font);
+    font-size: var(--statusbar-font-size)
+}
+
+/* hide Custom CSS & JS extension statusbar entry */
+div[title="Custom CSS and JS"] {
+    opacity: 0;
+}

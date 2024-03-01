@@ -1,0 +1,37 @@
+:root {
+    --font: 'Ubuntu' !important;
+    --monospaced-font: 'Ubuntu Mono' !important;
+    --sidebar-font-size: 13px !important;
+    --tabs-font-size: 11px !important;
+    --breadcrumbs-font-size: 12px !important;
+    --statusbar-font-size: 11px !important;
+    --cursor-border-radius: 1px !important;
+    --background-blur: 10px;
+    --quick-input-border-radius: 6px !important;
+    --popup-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.36);
+    --so-box-shadow-xl: 0 1px 4px hsla(0, 0%, 0%, 0.09), 0 3px 8px hsla(0, 0%, 0%, 0.09), 0 4px 13px hsla(0, 0%, 0%, 0.13)
+}
+
+/* breadcrumbs */
+.tabs-breadcrumbs {
+    font-size: var(--breadcrumbs-font-size);
+    backdrop-filter: blur(var(--background-blur));
+}
+
+.tabs-breadcrumbs .label-name {
+    font-family: 'Ubuntu' !important
+}
+
+.tabs-breadcrumbs .outline-element-icon {
+    padding-right: unset !important
+}
+
+.tabs-breadcrumbs .outline-element-icon::before {
+    padding-right: 3px
+}
+
+.codicon-breadcrumb-separator::before {
+    color: var(--vscode-tab-inactiveForeground);
+    padding-left: 1px;
+    padding-right: 1px;
+}
